@@ -187,7 +187,7 @@ public abstract class AbstractClinicServiceTests {
 
         pet7 = this.clinicService.findPetById(7);
         assertThat(pet7.getVisits().size()).isEqualTo(found + 1);
-        assertThat(visit.getId()).isNotNull()
+        assertThat(visit.getId()).isNotNull();
     }
 
 
